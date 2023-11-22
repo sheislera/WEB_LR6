@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("../img/dark-color-blurred-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+}
+h1,
+h2,
+label,
+legend,
+div,
+table {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    text-align: center;
+    background-image: url("../img/black-blurred-background-vector.jpg");
+    margin-top: -22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    opacity: 0.8;
+}
+.task {
+    font-size: medium;
+    padding: 10px 10px 10px 10px;
+}
+.button {
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 15px 15px 15px 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+    text-align: center;
+
+}
+.button:hover {
+    background-color: aquamarine;
+    color: white;
+}
+@media (max-width: 600px) {
+    .header {
+        padding: 10px;
+    }
+    .task {
+        padding: 10px;
+    }
+}
+
+
